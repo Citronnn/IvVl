@@ -158,6 +158,8 @@ public:
         out<<"Малый радиус "<<r<<"\n";
         out<<"Фокусное расстояние "<< focdist<<"\n";
     }
+    
+    virtual ~Shape(){}
 
  protected:
     double R, r;
