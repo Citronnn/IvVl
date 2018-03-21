@@ -168,17 +168,7 @@ public:
 };
 
 int main(){
-    std::cout<<"-----------\n";
-    std::cout<<"Shape\n";
-    std::cout<<"-----------\n";
-    Shape sh(3,4);
-    sh.changeAngle(380);
-    sh.changeColour(5,77,133);
-  //  sh.changePos(4,5);
-    sh.changeSize(3);
-    std::cout<<sh;
-
-
+    
     std::cout<<"-----------\n";
     std::cout<<"Ellipse\n";
     std::cout<<"-----------\n";
