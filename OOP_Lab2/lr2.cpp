@@ -76,7 +76,8 @@ public:
         sh.print(out);
         return out;
     }
-
+    virtual ~Shape(){}
+    
 protected:
     Point cent;
     int ang;
@@ -159,7 +160,7 @@ public:
         out<<"Фокусное расстояние "<< focdist<<"\n";
     }
     
-    virtual ~Shape(){}
+    
 
  protected:
     double R, r;
