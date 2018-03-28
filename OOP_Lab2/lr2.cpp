@@ -39,7 +39,7 @@ public:
         }
     }
 
-    virtual void changeSize(double k){};
+    virtual void changeSize(double k)=0;
 
     void changeAngle(int deg){
         ang+=deg;
@@ -69,7 +69,7 @@ public:
         out<<"Цвет "<<col.r<<" "<<col.g<<" "<<col.b<<std::endl;
     }
 
-    virtual void print(std::ostream& out){}
+    virtual void print(std::ostream& out)=0;
 
     friend std::ostream& operator<<(std::ostream& out, Shape& sh){
         sh.forPrint(out);
